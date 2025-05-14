@@ -18,10 +18,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Screenshot
 
 - The desktop version
+
 ![desktop_version](./images/desktop_version_qr.png)
 
   
 - The mobile version
+
+
 ![mobile_version](./images/mobile_version_qr.png)
 
 ### Links
