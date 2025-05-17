@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Frontend Mentor - Social links profile solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). 
 ## Table of contents
 
 - [Overview](#overview)
@@ -21,7 +21,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![desktop_version](./images/desktop_version_qr.png)
 
-  
+
 - The mobile version
 
 
@@ -44,22 +44,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I have been using frameworks a lot to make my frontend like react and tailwind for style more than I have ever used the traditional CSS, so for me, it was a fun challenge where I used the traditional CSS, learned a lot of things like how to center a div using transform: translate. 
+I have been using frameworks a lot to make my frontend like react and tailwind for style more than I have ever used the traditional CSS, so for me, it was a fun challenge where I used the traditional CSS, learned a lot of things like how to center a div using transform: translate.
 Learned how to get custom font family and text color.
 
-
-The snippet below is what I learned and implemented to center the div component in the parent div
-```css
-#main{
-  background-color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 20px 15px 20px 15px;
-  width: 300px;
-  border-radius: 15px;
-}
 
 
 ### Continued development
