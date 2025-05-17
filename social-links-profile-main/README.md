@@ -19,13 +19,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - The desktop version
 
-![desktop_version](./images/desktop_version_qr.png)
+![desktop_version](./assets/images/social-link-profile-desktop.png)
 
 
 - The mobile version
 
 
-![mobile_version](./images/mobile_version_qr.png)
+![mobile_version](./assets/images/social-link-profile-mobile.png)
 
 ### Links
 
