@@ -29,8 +29,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [https://github.com/che3zcake/frontend_mentor/blob/main/qr-code-component-main/index.html](https://github.com/che3zcake/frontend_mentor/blob/main/qr-code-component-main/index.html)
-- Live Site URL: [http://che3zcake.me/frontend_mentor/qr-code-component-main/](https://frontend-mentor-one-ivory.vercel.app/)
+- Solution URL: [https://github.com/che3zcake/frontend_mentor/tree/main/social-links-profile-main](https://github.com/che3zcake/frontend_mentor/tree/main/social-links-profile-main)
+- Live Site URL: [https://frontend-mentor-dkpn.vercel.app/](https://frontend-mentor-dkpn.vercel.app/)
 
 ## My process
 
@@ -59,7 +59,7 @@ Even tho I love using tailwind for styling, I will try to use the traditional CS
 - [Centering the div in the parent div/body](https://www.dhiwise.com/post/crafting-the-perfect-website-how-to-center-a-div-in-your-code) - This site showed me multiple ways to center a div in a parent div and here I learned to use the transform: translate method.
 ## Author
 
-- Website - [Lawrence Sharma](https://frontend-mentor-one-ivory.vercel.app/)
+- Website - [Lawrence Sharma](https://frontend-mentor-dkpn.vercel.app/)
 - Frontend Mentor - [@che3zcake](https://www.frontendmentor.io/profile/che3zcake)
 - Twitter - [@che3zcake](https://www.twitter.com/che3zcake)
 

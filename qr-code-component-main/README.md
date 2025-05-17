@@ -29,8 +29,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/che3zcake/frontend_mentor/blob/main/qr-code-component-main/index.html](https://github.com/che3zcake/frontend_mentor/blob/main/qr-code-component-main/index.html)
-- Live Site URL: [http://che3zcake.me/frontend_mentor/qr-code-component-main/](https://frontend-mentor-one-ivory.vercel.app/)
+- Solution URL: [Click Here](https://github.com/che3zcake/frontend_mentor/blob/main/qr-code-component-main/index.html)
+- Live Site URL: [Click Here](https://frontend-mentor-one-ivory.vercel.app/)
 
 ## My process
 
