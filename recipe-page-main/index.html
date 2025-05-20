@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <style>
+    body{
+      background-color: hsl(30, 54%, 90%);
+      min-height: 1565px;
+    }
+
+    #main{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -25%);
+      background-color: hsl(0, 0%, 100%);
+      border-radius: 15px;
+      padding: 35px 35px 35px 35px;
+      width: 500px;
+      font-family: Outfit, sans-serif;
+    }
+
+    img{
+      width: 500px;
+      border-radius: 15px;
+    }
+
+
+    #one{
+      padding-bottom: 15px;
+      font-size: 12px;
+    }
+
+    #purple-box{
+      margin-bottom: 26px;
+      padding: 2px 22px 12px 22px;
+      background-color: hsl(330, 100%, 98%);
+      border-radius: 15px;
+    }
+
+    h1{
+      color: hsl(24, 5%, 18%);
+      font-family: Young-Sarif, serif;
+      font-weight: 700;
+      font-size: 35px;
+    }
+
+    h2{
+      color: hsl(14, 45%, 36%);
+      font-family: Young-Sarif, serif;
+      font-size: 26px;
+    }
+
+    h3{
+      color: hsl(332, 51%, 32%);
+    }
+
+    ul{
+      padding: 0;
+      margin: 0 20px 15px 22px;
+      font-size: 13px;
+    }
+
+    ol{
+      padding: 0;
+      margin: 0 20px 15px 22px;
+      font-size: 12px;
+    }
+
+    li{
+      margin: 10px 0 10px 0;
+    }
+
+    li span{
+      position: relative;
+      left: 10px;
+      color: hsl(30, 10%, 34%);
+      line-height: 1.4;
+    }
+
+    ul li::marker{
+      color: hsl(332, 51%, 32%);
+    }
+
+    ol li::marker{
+      color: hsl(332, 51%, 32%);
+      font-weight: 900;
+      font-size: 13px;
+      font-family: Young-Sarif, sans-serif;
+    }
+
+    span span{
+      font-weight: bolder;
+      padding-right: 12px;
+    }
+
+    .line{
+      border-top: 1px solid hsl(30, 18%, 87%);
+      padding-bottom: 5px;
+    }
+
+    #ing{
+      color: hsl(30, 10%, 34%);
+      padding-bottom: 3px;
+    }
+
+    #ins{
+      color: hsl(30, 10%, 34%);
+      padding-bottom: 3px;
+      font-size: 12px;
+    }
+
+    strong{
+      font-weight: 900;
+      font-size: 12px;
+    }
+
+    p{
+      color: hsl(30, 10%, 34%);
+      font-size: 13px;
+    }
+
+    .tablerow{
+      border-bottom: 1px solid hsl(30, 18%, 87%);
+    }
+
+    table{
+      height: 100%;
+      width: 100%;
+      border-collapse: collapse;
+      color: hsl(30, 10%, 34%);
+    }
+
+    .one{
+      font-size: 12px;
+      padding: 10px 0 10px 30px;
+    }
+
+    .two {
+      font-size: 12px;
+      padding: 10px 0 10px 30px;
+      font-weight: bold;
+      color: hsl(14, 45%, 36%);
+    }
+
+    @media only screen and (max-width: 400px){
+      #main{
+        width: 100%;
+        padding: 0;
+        transform: none;
+        position: static;
+        border-radius: 0;
+      }
+      img{
+        width: 100%;
+        border-radius: 0;
+      }
+      #sub{
+        padding: 0 20px 20px 20px;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="main">
+    <img src="./assets/images/image-omelette.jpeg" alt="Omelette Picture">
+    <div id="sub">
+      <h1 id="title">Simple Omelette Recipe</h1>
+      <p id="one">
+      An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+      to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      </p>
+      <div id="purple-box">
+        <h3>Preparation time</h3>
+        <ul>
+          <li><span><span>Total:</span> Approximately 10 minutes</span></li>
+          <li><span><span>Preparation:</span> 5 minutes</span></li>
+          <li><span><span>Cooking:</span> 5 minutes</span></li>
+        </ul>
+      </div>
+
+      <h2>Ingredients</h2>
+      <ul id="ing">
+        <li><span>2-3 large eggs</span></li>
+        <li><span>Salt, to taste</span></li>
+        <li><span>Pepper, to taste</span></li>
+        <li><span>1 tablespoon of butter or oil</span></li>
+        <li><span>Optional fillings: cheese, diced vegetables, cooked meats, herbs</span></li>
+      </ul>
+
+      <div class="line"></div>
+
+      <h2>Instructions</h2>
+      <ol id="ins">
+        <li><span><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+          You can add a tablespoon of water or milk for a fluffier texture.</span></li>
+
+        <li><span><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</span></li>
+
+        <li><span><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+          the eggs evenly coat the surface.</span></li>
+
+        <li><span><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the
+          middle, sprinkle your chosen fillings over one half of the omelette.</span></li>
+
+        <li><span><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the
+          fillings. Let it cook for another minute, then slide it onto a plate.</span></li>
+
+        <li><span><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</span></li>
+      </ol>
+      <div class="line"></div>
+
+      <h2>Nutrition</h2>
+
+      <p>The table below shows nutritional values per serving without the additional fillings.</p>
+      <div>
+        <table>
+          <tr class="tablerow">
+            <td class="one">Calories</td>
+            <td class="two">277kcal</td>
+          </tr>
+
+          <tr class="tablerow">
+            <td class="one">Carbs</td>
+            <td class="two">0g</td>
+          </tr>
+
+          <tr class="tablerow">
+            <td class="one">Protein</td>
+            <td class="two">20g</td>
+          </tr>
+
+          <tr>
+            <td class="one">Fat</td>
+            <td class="two">22g</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
