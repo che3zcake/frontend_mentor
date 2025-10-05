@@ -1,0 +1,154 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 87.5%;
+}
+
+.main{
+    position: absolute;
+    height: 470px;
+    width: 630px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    display: flex;
+}
+
+.real{
+    border-radius: 15px 0 0 15px;
+    height: auto;
+    width: 30em;
+}
+
+.title{
+    font-size: 2.3em;
+    line-height: 1em;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+
+.perfume{
+    margin-bottom: 1.5em;
+    margin-top: .5em;
+    font-size: .9em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%)
+}
+
+.sub-main{
+    padding: 2rem 2.9rem 0 2rem;
+}
+
+.button{
+    background-color: hsl(158, 36%, 37%);
+    margin-top: 2em;
+    padding: .9em 20px;
+    border-radius: 0.5em;
+    font-size: 1em;
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    gap: 0.75em;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.svg{
+    height: 1em;
+    width: 1em;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+    font-family: 'Fraunces', serif;
+}
+
+.price .big{
+    font-size: 2.25em;
+    font-weight: bolder;
+    color: hsl(158, 36%, 37%);
+}
+
+.price .small{
+    font-size: .8em;
+    text-decoration-line: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.para {
+    margin-top: 2em;
+    font-size: 1em;
+    line-height: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%)
+}
+
+@media (max-width: 375px){
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 610px;
+        width: 90%;
+        top: 25%;
+        left: 25%;
+        transform: translate(-22%,-22%);
+        background-color: hsl(0, 0%, 100%);
+    }
+
+    .sub-main{
+        padding: 1rem 1.5rem 0 1.5rem;
+    }
+
+    .real{
+        border-radius: 15px 15px 0 0;
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .title{
+        font-size: 2em;
+        line-height: 1em;
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+    }
+
+    .perfume{
+        margin-bottom: 1em;
+        font-size: .9em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        letter-spacing: 3px;
+        color: hsl(228, 12%, 48%)
+    }
+
+    .para {
+        margin-top: 1em;
+        font-size: 0.98em;
+        line-height: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%)
+    }
+
+    .price{
+        margin-top: 1.5em;
+    }
+
+    .button {
+        margin-top: 1.5em;
+        padding: 1.2em 20px;
+    }
+}
