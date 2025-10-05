@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card component solution
+# Frontend Mentor - Product preview card component
 
 This is a solution to the Blog preview card component challenge on Frontend Mentor
 ## Table of contents
@@ -29,8 +29,8 @@ This is a solution to the Blog preview card component challenge on Frontend Ment
 
 ### Links
 
-- Solution URL: [Click](https://github.com/che3zcake/frontend_mentor/tree/main/blog-preview-card-main)
-- Live Site URL: [Click](https://frontend-mentor-blog-preview-card-pink.vercel.app/)
+- Solution URL: [Click](https://github.com/che3zcake/frontend_mentor/tree/main/product-preview-card-component-main)
+- Live Site URL: [Click](https://frontend-mentor-92fw.vercel.app/)
 
 ## My process
 
