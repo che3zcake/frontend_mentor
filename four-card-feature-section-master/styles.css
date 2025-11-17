@@ -1,0 +1,234 @@
+body {
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'Poppins', serif;
+    color: hsl(234, 12%, 34%);
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 480px;
+}
+
+.first {
+    font-size: 2em;
+    font-weight: 200;
+    color: hsl(212, 6%, 44%);
+}
+
+.second {
+    font-size: 2em;
+    font-weight: 600
+}
+
+.third {
+    font-size: 0.825em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    transform: translate(-50%,-25%);
+}
+
+
+.Supervisor {
+    position: absolute;
+    top: 230%;
+    right: 88%;
+    box-shadow: 0 4px 5px hsl(212, 6%, 44%);
+    width: 305px;
+    border-radius: 4px;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    background-color: white;
+}
+
+.Supervisor .child{
+    margin: 20px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    height: 165px;
+}
+
+.Supervisor .child .sub-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.Supervisor .child .sub-text {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+.Team {
+    position: absolute;
+    top: 150%;
+    right: 18%;
+    box-shadow: 0 4px 5px hsl(212, 6%, 44%);
+    width: 305px;
+    border-radius: 4px;
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-color: white;
+}
+
+.Team .child {
+    margin: 20px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    height: 165px;
+}
+
+.Team .child .sub-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.Team .child .sub-text {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+.Calculator {
+    position: absolute;
+    top: 230%;
+    left: 88%;
+    box-shadow: 0 4px 5px hsl(212, 6%, 44%);
+    width: 305px;
+    border-radius: 4px;
+    border-top: 5px solid hsl(212, 86%, 64%);
+    background-color: white;
+}
+
+.Calculator .child {
+    margin: 20px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    height: 165px;
+}
+
+.Calculator .child .sub-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 2em;
+ }
+
+.Calculator .child .sub-text {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+
+.Karma {
+    position: absolute;
+    top: 320%;
+    right: 18%;
+    box-shadow: 0 4px 5px hsl(212, 6%, 44%);
+    width: 305px;
+    border-radius: 4px;
+    border-top: 5px solid hsl(34, 97%, 64%);
+    background-color: white;
+}
+
+.Karma .child {
+    margin: 20px 25px 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    height: 165px;
+}
+
+.Karma .child .sub-title {
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 2em;
+}
+
+.Karma .child .sub-text {
+    font-size: 0.75em;
+    line-height: 1.5em;
+    font-weight: 200;
+}
+
+img {
+    width: 55px;
+}
+
+@media (max-width: 724px){
+
+    .title {
+        width: 360px;
+    }
+
+    .primary {
+        top: 12%;
+    }
+
+    .first {
+        font-size: 1.5em;
+    }
+
+    .second {
+        font-size: 1.5em;
+    }
+
+    .third {
+        font-size: 0.925em;
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .Supervisor {
+        top: 135%;
+        left: 8%;
+    }
+    .Team {
+        top: 295%;
+        left: 8%
+    }
+    .Karma {
+        top: 455%;
+        left: 8%
+    }
+
+    .Calculator {
+        top: 620%;
+        left: 8%;
+    }
+
+    .primary {
+        gap: 2em;
+    }
+
+    .whiteSpace {
+        position: absolute;
+        height: 100px;
+        width: 305px;
+        top: 725%;
+        left: 15%;
+    }
+}
+
